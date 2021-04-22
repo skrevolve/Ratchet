@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "MyModule\\":"bin/src/"
+        }
+    },
+    "require": {
+        "cboden/ratchet":"vo.4"
+    }
+}
