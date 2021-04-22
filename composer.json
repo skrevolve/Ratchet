@@ -6,7 +6,7 @@
             "role": "Developer"
         }
     ],
-    "description": "this is for create websocket server and do chatting in php7",
+    "description": "this is websocket php server for chatting in php7",
     "autoload": {
         "psr-4": {
             "MyModule\\":"bin/src/"
