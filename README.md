@@ -6,5 +6,6 @@ https://github.com/ratchetphp/Ratchet
 https://github.com/miconda/wsctl  
 
 ## You need an SSL certificate for this project
-No need to configure Apache proxy( mod_proxy_wstunnel -->http://httpd.apache.org/docs/2.4/mod/mod_proxy_wstunnel.html ).  
+No need to configure Apache proxy(mod_proxy_wstunnel)  
+http://httpd.apache.org/docs/2.4/mod/mod_proxy_wstunnel.html  
 You can create any number of socket servers if you have an SSL certificate.  
