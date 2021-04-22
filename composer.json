@@ -1,10 +1,19 @@
 {
+    "authors": [
+        {
+            "name": "limeseokyu",
+            "email": "sukyu0919@naver.com",
+            "role": "Developer"
+        }
+    ],
+    "description": "this is for create websocket server and do chatting in php7",
     "autoload": {
         "psr-4": {
             "MyModule\\":"bin/src/"
         }
     },
     "require": {
-        "cboden/ratchet":"vo.4"
-    }
+        "cboden/ratchet":"v0.4"
+    },
+    "license": "MIT"
 }
