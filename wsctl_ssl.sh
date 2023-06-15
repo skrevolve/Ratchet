@@ -1,8 +1,4 @@
 #!/bin/sh
-# 1. chmod a+x wsctl_ssl.sh (Grant execute permission 실행 권한 부여)
-# 2. ./wsctl_ssl.sh start (Server running 서버 실행)
-# 3.  ps -ef | grep server_ssl.php (Confirm execution 실행 확인)
-
 if [ "$1" == "start" ]; then
     php bin/server_ssl.php &
 elif [ "$1" == "stop" ]; then
